@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ignore HTML, CSS, JS files from language stats
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
+*.json linguist-vendored
+*.md linguist-vendored
+
+# Force GitHub to count only PHP files
+*.php linguist-detectable
