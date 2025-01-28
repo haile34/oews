@@ -1,4 +1,5 @@
 # Ignore HTML, CSS, JS files from language stats
+*.scss linguist-vendored
 *.html linguist-vendored
 *.css linguist-vendored
 *.js linguist-vendored
